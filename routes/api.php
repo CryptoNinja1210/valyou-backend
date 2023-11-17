@@ -42,8 +42,6 @@ Route::post('/verify_accounts',[AuthController::class, 'verify_accounts'])->name
 // Route::post('check-smtp', 'MailerController@check_smtp')->name('check_smtp');
 // Route::post('attachments-upload', 'MailerController@attachments_upload')->name('attachments_upload');
 
- 
-
 // Route::group(['namespace' => 'Admin', 'as' => 'admin.', 'middleware' => ['auth','twofactor']], static function () {
 
 //     Route::get('/', 'HomeController@root')->name('home');

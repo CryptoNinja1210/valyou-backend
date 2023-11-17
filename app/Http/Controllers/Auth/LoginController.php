@@ -55,8 +55,6 @@ class LoginController extends Controller
             // }
             // $user->generateTwofactor();
             // $user->notify(new TwoFactorCode());
-            
-
         }
     }
 }

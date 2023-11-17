@@ -26,7 +26,6 @@ class UserController extends Controller
 
     public function updateProfile(Request $request)
     {
-        
         $validate = Validator::make($request->all(), [
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
@@ -68,5 +67,4 @@ class UserController extends Controller
             // return redirect()->back()->with('error', $e->getMessage());  //-- display exception message
         }
     }
-	
 }

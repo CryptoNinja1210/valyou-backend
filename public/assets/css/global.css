@@ -1,0 +1,245 @@
+/* media */
+	/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) {
+		.mobile-mode{display: flex!important;}
+		.desktop-mode{display: none!important;}
+	}
+
+	/* Small devices (portrait tablets and large phones, 600px and up) */
+	@media only screen and (min-width: 600px) {
+		.mobile-mode{display: flex!important;}
+		.desktop-mode{display: none!important;}
+	}
+
+	/* Medium devices (landscape tablets, 768px and up) */
+	@media only screen and (min-width: 768px) {
+		.mobile-mode{display: none!important;}
+		.desktop-mode{display: flex!important;}
+	}
+
+	/* Large devices (laptops/desktops, 992px and up) */
+	@media only screen and (min-width: 992px) {
+		.mobile-mode{display: none!important;}
+		.desktop-mode{display: flex!important;}
+	}
+
+	/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
+		.mobile-mode{display: none!important;}
+		.desktop-mode{display: flex!important;}
+	}
+/* end media */
+
+.w-full {
+	width: 100%;
+}
+
+.w-100 {
+	width: 100px;
+}
+
+.w-150 {
+	width: 150px;
+}
+
+.w-200 {
+	width: 200px;
+}
+
+.k-avatar-md {
+	width: 60px;
+	height: 60px;
+}
+
+.k-avatar-sm {
+	width: 40px;
+	height: 40px;
+}
+
+.h-fit {
+    height: fit-content!important;
+}
+
+.fs-1 {
+	font-size: 0.5rem!important;
+}
+.fs-2 {
+	font-size: 1rem!important;
+}
+.fs-3 {
+	font-size: 1.5rem!important;
+}
+.fs-4 {
+	font-size: 2rem!important;
+}
+.fs-5 {
+	font-size: 2.5rem!important;
+}
+.fs-1-1 {
+	font-size: 0.75rem!important;
+}
+.fs-2-1 {
+	font-size: 1.25rem!important;
+}
+.fs-3-1 {
+	font-size: 1.75rem!important;
+}
+.fs-4-1 {
+	font-size: 2.25rem!important;
+}
+.fs-5-1 {
+	font-size: 2.75rem!important;
+}
+
+.p-0-5 {
+	padding: 2px;
+}
+
+.outline-double {
+    outline: double;
+    outline-color: lightcoral;
+}
+
+.bg-main {
+	background-color: #ff0093!important;
+}
+
+.bg-green {
+	background-color: #1cea2c!important;
+}
+
+.bg-success {
+	background-color: #3CD4A0 !important;
+}
+
+.bg-primary {
+	background-color: #536DFE !important;
+}
+
+.bg-info {
+	background-color: #9239df !important;
+}
+
+.bg-warning {
+	background-color: #FFC260 !important;
+}
+
+.bg-error {
+	background-color: #FF5C93 !important;
+}
+
+.txt-success {
+	color: #3CD4A0 !important;
+}
+
+.txt-primary {
+	color: #536DFE !important;
+}
+
+.txt-info {
+	color: #9239df !important;
+}
+
+.txt-warning {
+	color: #FFC260 !important;
+}
+
+.txt-error {
+	color: #FF5C93 !important;
+}
+
+.bg-pink-gra {
+    background: linear-gradient(81deg, #f41c8c 4%, #f24a28 64%, #f2482d 65%, #ffc26f);
+}
+
+.bg-green-gra {
+    background: linear-gradient(80.48deg,#00ffc2 7.18%,#00b8ba 97.46%);
+}
+
+.txt-main {
+	color: #ff0093!important;
+}
+
+.txt-green {
+	color: #1cea2c!important;
+}
+
+.txt-light-black {
+	color: #333!important;
+}
+
+.badge {
+    color: #fff !important;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.hand {
+	cursor: pointer;
+}
+
+.cursor-grab {
+    cursor: grab;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
+.k-flex-1 {
+    flex: 1;
+}
+
+.k-flex-2 {
+    flex: 2;
+}
+
+.k-flex-3 {
+    flex: 3;
+}
+
+.k-flex-4 {
+    flex: 4;
+}
+
+.k-left {
+    float: left;
+}
+
+.k-right {
+    float: right;
+}
+
+.space-content {
+    justify-content: space-between;
+}
+
+.scroll-style::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.scroll-style::-webkit-scrollbar:vertical {
+    width: 6px;
+}
+.scroll-style::-webkit-scrollbar:horizontal {
+    height: 6px;
+}
+.scroll-style::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: #ededed;
+}
+
+.scroll-maincolor::-webkit-scrollbar-thumb {
+    background-color: #ff0093!important;
+}
+
+.k-shadow-blur {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.k-shadow {
+    box-shadow: 2 2 2 rgba(0,0,0,.1);
+}
